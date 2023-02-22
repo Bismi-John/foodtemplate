@@ -1,0 +1,88 @@
+/* Author-Bismi John */
+.mcontainer {
+    margin: 0;
+    padding: 0;
+}
+.background-home {
+    background-image: url("../images/agency-slider-04.jpg");
+    min-height: 100vh;
+    background-size: cover;
+}
+.home-cart-icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 80px;
+    color: rgba(140, 136, 136, 0.821);
+}
+.home-square-icon {
+    height: 30px;
+    width: 30px;
+    color: rgba(140, 136, 136, 0.821);
+}
+
+.bg-div {
+    background-color: #d13606;
+}
+
+.btn-bg {
+    background-color: #ba9006;
+}
+.explore-home {
+    min-height: 100vh;
+}
+.main-menu-bg {
+    background-image: url("../images/restaurant-menu-bg.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.round-icon {
+    opacity: 0.5;
+}
+.food-gallery {
+    min-width: 40vh;
+}
+.chef {
+    min-height: 100vh;
+}
+
+.chef-font {
+    font-family: Brush Script MT;
+}
+.book-table-bg {
+    min-height: 100vh;
+    background-image: url("../images/hero-bg9.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    background-position: center;
+}
+.card-border {
+    border-color: #ffffff;
+}
+.meal-bg {
+    min-height: 60vh;
+    background-image: url("../images/fitness-about-bg.jpg");
+    background-size: cover;
+}
+.meal-icon-color {
+    color: #ba9006;
+    height: 25px;
+    width: 25px;
+}
+.contact {
+    min-height: 30vh;
+}
+.form-bg {
+    min-height: 100vh;
+    background-image: url("../images/hero-bg3.jpg");
+    background-size: cover;
+    opacity: 0.9;
+}
+.footer {
+    min-height: 100vh;
+}
+@media screen and (max-width: 720px) and(min-width: 320px) {
+    .main-menu-bg {
+        background-image: none;
+    }
+}
